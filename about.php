@@ -14,7 +14,8 @@
     <main>
       <h2> Информация о пользователе </h2>
        <p>Имя: <strong><?= $user_name ?></strong></p>
-       <p>Возраст: <strong><?= $age ?></strong></p>
+       <p>Возраст: <strong><?=   $email ?></strong></p>
+        <p>Email: <a href="#"><?= $age ?></a></p>
        <p>О себе <strong><?= $description ?></strong></p>
     </main>
   </body>
