@@ -19,11 +19,11 @@
        <p>О себе <strong><?= $description ?></strong></p>
     </main>
     <section>
-      <form class="" action="" method="post">
+  <!--    <form class="" action="" method="post">
         Числовой ряд
         <input type="text" name="number" value="">
         <input type="submit" name="отправить" value="">
-      </form>
+      </form>  -->
 
   </body>
 </html>
