@@ -14,9 +14,16 @@
     <main>
       <h2> Информация о пользователе </h2>
        <p>Имя: <strong><?= $user_name ?></strong></p>
-       <p>Возраст: <strong><?=   $email ?></strong></p>
-        <p>Email: <a href="#"><?= $age ?></a></p>
+       <p>Возраст: <strong><?=   $age ?></strong></p>
+        <p>Email: <a href="#"><?= $email ?></a></p>
        <p>О себе <strong><?= $description ?></strong></p>
     </main>
+    <section>
+      <form class="" action="" method="post">
+        Числовой ряд
+        <input type="text" name="number" value="">
+        <input type="submit" name="отправить" value="">
+      </form>
+
   </body>
 </html>

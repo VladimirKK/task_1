@@ -12,9 +12,33 @@
       $description = 'Я студент 3 курса';
     ?>
     <main>
-       <p>ФИО: <strong><?= $user_name ?></strong></p>
-       <p>Возраст: <strong><?= $age ?></strong></p>
+      <h2> Информация о пользователе </h2>
+       <p>Имя: <strong><?= $user_name ?></strong></p>
+       <p>Возраст: <strong><?=   $email ?></strong></p>
+        <p>Email: <a href="#"><?= $age ?></a></p>
        <p>О себе <strong><?= $description ?></strong></p>
     </main>
+    <section>
+      <form class="" action="" method="post">
+        Числовой ряд
+        <input type="text" name="number" value="">
+        <input type="submit" name="отправить" value="">
+      </form>
+    </section>
+    <?
+    $a = 1;
+    $b = 1;
+    if {isset($_POST['number']) && is_numeric($_POST['number'])} {
+      if ($_POST['number'] > 1) {
+        echo 'Задуманное число не входит в числовой ряд';
+      }  elseif ($_POST['number'] == 1) {
+        echo 'Задуманное число входит в числовой ряд';
+      }  elseif ($_POST['number'] != 1) {
+        $c == 3 + $a;
+        $a == $a + $b;
+        $b == $c;
+      } else ($_POST['number'] > 1)
+    }
+      ?>
   </body>
 </html>
